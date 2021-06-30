@@ -45,7 +45,7 @@ while(bandera === 1){
             ? bandera = 2
             : bandera = 1
 }
-
+//calando que sucede al hacer esto 
 //Ejercicio 4 
 function reciveList (list){
     let n = 0;
