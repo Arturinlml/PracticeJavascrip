@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Figuras Geometricas</title>
 </head>
 <body>
+    <script src = "./figurasGeometricas.js"></script>
 <header>
     <h1>
         Figuras Geométricas     
@@ -16,22 +18,21 @@
 </header>
 
 <section>
-    <h2> Calcula área y perímetro de un cuadrado </h2>
+    <h3> Calcula área y perímetro de un cuadrado </h3>
     <form >
-        <label>
+        <label for="inputLado">
             Escribe cuánto mide el Lado de tu cuadrado
         </label>
-        <input type="number"/>
-        <button>
+        <input type="number" id="inputLado"/>
+        <button type="submit" onclick="calcularPerimetroCuadrado">
             Calcular el Perimetro
         </button>
-        <button>
+        <button type="submit" onclick="calcularAreaCuadrado">
             Calcular el Area
         </button>
     </form>
 </section>
 
-
-    <script src = "./figurasGeometricas.js"></script>
+    
 </body>
 </html>

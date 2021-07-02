@@ -36,4 +36,13 @@ console.log("el resultado del cuadrado es area: ", area +" perimetro: ", perimet
 console.log("el resultado del circulo es area: ", areaCirculo +" perimetro: ", perimetroCirculo);
 console.log("el resultado del Triangulo es area: ", areaTriangulo +" perimetro: ", perimetroTriangulo);
 
+//interaccion con HTML5 
 
+function calcularAreaCuadrado () {
+    //Obtenemos el valor del input
+    const ladoInput = document.getElementById("inputLado")
+    //convertimos el argumento en valor 
+    const ladoValue = ladoInput.value;
+    const areaCuadrado = cuadradoArea(ladoValue);
+    alert(areaCuadrado);
+}
