@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
     <title>Figuras Geometricas</title>
 </head>
 <body>
-    <script src = "./figurasGeometricas.js"></script>
 <header>
-    <h1>
+    <h1 >
         Figuras Geométricas     
     </h1>
     <p> Calculos basicos de figuras Geometricas </p>
@@ -23,16 +23,52 @@
         <label for="inputLado">
             Escribe cuánto mide el Lado de tu cuadrado
         </label>
-        <input type="number" id="inputLado"/>
-        <button type="submit" onclick="calcularPerimetroCuadrado">
+        <input id="inputLado" type="number"/>
+        <button type="button" onclick="calcularPerimetroCuadrado()">
             Calcular el Perimetro
         </button>
-        <button type="submit" onclick="calcularAreaCuadrado">
-            Calcular el Area
+        <button type="button" onclick="calcularAreaCuadrado()">
+            Calcular el área
         </button>
     </form>
 </section>
 
-    
+<footer class="footer">
+    <a href="/">Elaborado por: Luis Arturo Sánchez González</a>
+    <a href="/">Ejercicios básicos de formulas Geometricas</a>
+</footer>
+// triangulo 
+<section>
+    <h3> Calcula área y perímetro de un Triangulo Rectangulo  </h3>
+    <form >
+        <label for="inputLado">
+            Escribe cuánto mide el Lado 1:
+        </label>
+        <input id="inputLado" type="number"/>
+        <label for="inputLadoT1">
+            Escribe cuánto mide el Lado 2: 
+        </label>
+        <input id="inputLado" type="number"/>
+        <label for="inputLadoT2">
+            Escribe cuánto mide la base: 
+        </label>
+        <input id="inputBase" type="number"/>
+        <input id="inputLado" type="number"/>
+        <button type="button" onclick="calcularPerimetroCuadrado()">
+            Calcular el Perimetro
+        </button>
+        <button type="button" onclick="calcularAreaCuadrado()">
+            Calcular el área
+        </button>
+    </form>
+</section>
+
+<footer class="footer">
+    <a href="/">Elaborado por: Luis Arturo Sánchez González</a>
+    <a href="/">Ejercicios básicos de formulas Geometricas</a>
+</footer>
+
+
+  <script src = "./figurasGeometricas.js"></script>
 </body>
 </html>
