@@ -1,3 +1,2 @@
 # PracticeJavascrip
-Curso de aprendizaje
-Aqui hace cambios o qué?
+Curso de aprendizaje basico sobre Javascrip
