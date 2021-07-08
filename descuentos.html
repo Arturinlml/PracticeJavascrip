@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porcentajes y descuentos con javascrip</title>
+</head>
+<body>
+<header>
+    <h1 >
+        Calculadora para porcentajes 
+    </h1>    
+</header>
+
+<section>
+    <h3> Porcentajes y descuentos </h3>
+    <form >
+        <label for="inputPrecio">
+           Escribe el precio del producto
+        </label>
+        <input id="inputPrecio" type="number"/>
+
+        <label for="inputCuppon">
+            Cupón de descuento:
+        </label>
+        <input id="inputCuppon" type="text"/>
+
+        <button type="button" onclick="calcular()">
+            Calcular el descuento
+        </button>
+        <p id="validacion" style="color: red;"></p>
+        <p id="resultado"></p>
+
+</section>
+
+<footer class="footer">
+    <a href="/">Elaborado por: Luis Arturo Sánchez González</a>
+    <a href="/">Ejercicios básicos de formulas Geometricas</a>
+</footer>
+
+  <script src = "./descuentos.js"></script>
+</body>
+</html>
